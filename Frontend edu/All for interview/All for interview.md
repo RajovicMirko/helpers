@@ -50,10 +50,11 @@ When we type www.google.com in browser:
 ## HTTP/HTTPS
 REF - [go to link](https://flaviocopes.com/http/) (for more details about this section go to link)
 WHAT IS LINK:
+
 For example, this document address is https://flaviocopes.com/http/:
-•	https is the protocol.
-•	flaviocopes.com is the domain name that points to my server
-•	/http/ is the document URL relative to the server root path. The path can be nested: https://flaviocopes.com/page/privacy/ and in this case the document URL is /page/privacy.
+*	https is the protocol.
+*	flaviocopes.com is the domain name that points to my server
+*	/http/ is the document URL relative to the server root path. The path can be nested: https://flaviocopes.com/page/privacy/ and in this case the document URL is /page/privacy.
 
  
 ## RESTFUL API 

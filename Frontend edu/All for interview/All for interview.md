@@ -49,6 +49,7 @@ When we type www.google.com in browser:
 
 ## HTTP/HTTPS
 REF - [go to link](https://flaviocopes.com/http/) (for more details about this section go to link)
+
 WHAT IS LINK:
 
 For example, this document address is https://flaviocopes.com/http/:

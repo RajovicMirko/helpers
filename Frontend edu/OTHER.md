@@ -1,6 +1,6 @@
-# Non codeing knowledge
+# Non coding knowledge
 
-- [Non codeing knowledge](#non-codeing-knowledge)
+- [Non coding knowledge](#non-coding-knowledge)
   - [DNS](#dns)
   - [HTTP/HTTPS](#httphttps)
   - [RESTFUL API](#restful-api)

@@ -38,7 +38,7 @@ Once the 8 steps of the DNS lookup have returned the IP address for example.com,
 9. The browser makes a HTTP request to the IP address.
 10. The server at that IP returns the webpage to be rendered in the browser.
 
-![DNS diagram](/helpers/Frontend%20edu/images/dns-lookup-diagram.png)
+![DNS diagram](https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-lookup-diagram.png)
 
 ## HTTP/HTTPS
 REF - [go to link](https://flaviocopes.com/http/) (for more details about this section go to link)

@@ -8,6 +8,7 @@
   - [AUTHORISATION](#authorisation)
     - [SESSION](#session)
     - [JWT](#jwt)
+  - [WEBPACK & BABEL](#webpack--babel)
   - [OOP (OBJECT ORIENTED PROGRAMMING) *](#oop-object-oriented-programming-)
   - [FP (FUNCTIONAL PROGRAMMING) *](#fp-functional-programming-)
   - [TDD (TEST-DRIVEN DEVELOPMENT) *](#tdd-test-driven-development-)
@@ -68,6 +69,9 @@ REF - [go to link](https://www.sitepoint.com/developers-rest-api/)
 ## AUTHORISATION
 ### SESSION
 ### JWT
+
+## WEBPACK & BABEL
+REF - [go to link](https://blog.logrocket.com/versatile-webpack-configurations-for-your-react-application-e6ebf6615cc/)
 
 ## OOP (OBJECT ORIENTED PROGRAMMING) *
 ## FP (FUNCTIONAL PROGRAMMING) *

@@ -2,6 +2,7 @@
   - [KREIRANJE REPOZITORIJUMA](#kreiranje-repozitorijuma)
   - [KREIRANJE NOVE GRANE](#kreiranje-nove-grane)
   - [SPAJANJE IZMENA NA MASTER SA DRUGE GRANE](#spajanje-izmena-na-master-sa-druge-grane)
+  - [BRISANJE SVIH LOKALNIH IZMENA](#brisanje-svih-lokalnih-izmena)
   - [BRISANJE GRANE](#brisanje-grane)
 
 # GIT UPUTSTVO
@@ -37,6 +38,12 @@ git pull
 git rebase -i master
 git checkout master
 git merge test
+```
+
+## BRISANJE SVIH LOKALNIH IZMENA
+```
+git fetch --all
+git reset --hard origin/"grana na kojoj se nalazite"
 ```
 
 ## BRISANJE GRANE

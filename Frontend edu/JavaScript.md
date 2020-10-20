@@ -14,6 +14,8 @@
     - [ALGORITHMS](#algorithms)
     - [LIBRARIES](#libraries)
       - [REACT](#react)
+        - [.env](#env)
+        - [LOCAL STORAGE](#local-storage)
     - [FRAMEWORKS](#frameworks)
       - [VUE.JS](#vuejs)
       - [ANGULAR](#angular)
@@ -41,6 +43,8 @@ Visual explanation of event loop: [go to link](http://latentflip.com/loupe/?code
 
 ### LIBRARIES 
 #### REACT
+##### .env
+##### LOCAL STORAGE
 
 ### FRAMEWORKS
 #### VUE.JS

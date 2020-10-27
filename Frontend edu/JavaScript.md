@@ -6,10 +6,10 @@
     - [PROTOTYPE CHAINING](#prototype-chaining)
     - [this](#this)
     - [TYPES (primitive/reference)](#types-primitivereference)
-      - [PRIMITIVE](#primitive)
-      - [REFERENCE](#reference)
-    - [IMUTABLE (BY VALUE)/MUTABLE (BY REF)](#imutable-by-valuemutable-by-ref)
-      - [IMUTABLE](#imutable)
+      - [PRIMITIVE - IMMUTABLE](#primitive---immutable)
+      - [REFERENCE - MUTABLE](#reference---mutable)
+    - [IMMUTABLE (BY VALUE)/MUTABLE (BY REF)](#immutable-by-valuemutable-by-ref)
+      - [IMMUTABLE](#immutable)
       - [MUTABLE](#mutable)
     - [SCOPE](#scope)
     - [HOISTING](#hoisting)
@@ -48,7 +48,7 @@ A function's this keyword behaves a little differently in JavaScript compared to
 In most cases, the value of this is determined by how a function is called (runtime binding). It can't be set by assignment during execution, and it may be different each time the function is called. ES5 introduced the bind() method to set the value of a function's this regardless of how it's called, and ES2015 introduced arrow functions which don't provide their own this binding (it retains the this value of the enclosing lexical context).
 
 ### TYPES (primitive/reference)
-#### PRIMITIVE
+#### PRIMITIVE - IMMUTABLE
 In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods. There are 6 primitive data types: string, number, bigint, boolean, undefined, and symbol. There also is null, which is seemingly primitive, but indeed is a special case for every Object: and any structured type is derived from null by the Prototype Chain.
 
 1. string
@@ -58,13 +58,13 @@ In JavaScript, a primitive (primitive value, primitive data type) is data that i
 5. undefined
 6. symbol
 
-#### REFERENCE
+#### REFERENCE - MUTABLE
 1. object
 2. array
 
-### IMUTABLE (BY VALUE)/MUTABLE (BY REF)
-#### IMUTABLE
-An immutable object is one whose content cannot be changed (string, nubmers).
+### IMMUTABLE (BY VALUE)/MUTABLE (BY REF)
+#### IMMUTABLE
+An immutable object is one whose content cannot be changed.
 An object can be immutable for various reasons, for example:
 
 * To improve performance (no planning for the object's future changes)

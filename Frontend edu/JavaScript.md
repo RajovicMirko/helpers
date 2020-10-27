@@ -34,14 +34,14 @@
 Visual explanation of event loop: [go to link](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 
 ### PROTOTYPE CHAINING
-Ref - [got to link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+Ref - [go to link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
 Prototypes are the mechanism by which JavaScript objects inherit features from one another.
 
 Last object in prototype chain is NULL.
 
 ### this
-Ref - [got to link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+Ref - [go to link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
 A function's this keyword behaves a little differently in JavaScript compared to other languages. It also has some differences between strict mode and non-strict mode.
 
@@ -75,14 +75,14 @@ An object can be immutable for various reasons, for example:
 Mutable is a type of variable that can be changed. In JavaScript, only objects and arrays are mutable, not primitive values.
 
 ### SCOPE
-Ref - [got to link](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+Ref - [go to link](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
 The current context of execution. The context in which values and expressions are "visible" or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use.
 
 Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa.
 
 ### HOISTING
-Ref - [got to link](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+Ref - [go to link](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
 Hoisting is a term you will not find used in any normative specification prose prior to ECMAScript® 2015 Language Specification. Hoisting was thought up as a general way of thinking about how execution contexts (specifically the creation and execution phases) work in JavaScript. However, the concept can be a little confusing at first.
 
@@ -115,7 +115,7 @@ Simply put, a higher-order function is just a first-class function that can acce
 Example is closure function sum. sum is higher-order function becouse returns new function.
 
 ### IIFE - Immediately Invoked Function Expression
-Ref - [got to link](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+Ref - [go to link](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 
 An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
 

@@ -8,14 +8,16 @@
     - [TYPES (primitive/reference)](#types-primitivereference)
       - [PRIMITIVE - IMMUTABLE](#primitive---immutable)
       - [REFERENCE - MUTABLE](#reference---mutable)
-    - [IMMUTABLE (BY VALUE)/MUTABLE (BY REF)](#immutable-by-valuemutable-by-ref)
+    - [IMMUTABLE (BY VALUE)/MUTABLE (BY REFERENCE)](#immutable-by-valuemutable-by-reference)
       - [IMMUTABLE](#immutable)
       - [MUTABLE](#mutable)
     - [SCOPE](#scope)
     - [HOISTING](#hoisting)
     - [CLOSURE](#closure)
-    - [HIGHER-ORDER FUNCTIONS](#higher-order-functions)
-    - [IIFE - Immediately Invoked Function Expression](#iife---immediately-invoked-function-expression)
+    - [FUNCTIONS](#functions)
+      - [FIRST-CLASS OBJECTS](#first-class-objects)
+      - [HIGHER-ORDER FUNCTIONS](#higher-order-functions)
+      - [IIFE - Immediately Invoked Function Expression](#iife---immediately-invoked-function-expression)
     - [ES6](#es6)
       - [LET/CONST](#letconst)
       - [PROMISE](#promise)
@@ -23,8 +25,15 @@
     - [ALGORITHMS](#algorithms)
     - [LIBRARIES](#libraries)
       - [REACT](#react)
+        - [VIRTUAL DOM](#virtual-dom)
+        - [JSX](#jsx)
+        - [ROUTER](#router)
+        - [COMPONENTS](#components)
+        - [REDUX](#redux)
+        - [REDUX-THUNK/REDUX-SAGA](#redux-thunkredux-saga)
         - [.env](#env)
         - [LOCAL STORAGE](#local-storage)
+        - [HTTP/AXIOS](#httpaxios)
     - [FRAMEWORKS](#frameworks)
       - [VUE.JS](#vuejs)
       - [ANGULAR](#angular)
@@ -64,7 +73,7 @@ In JavaScript, a primitive (primitive value, primitive data type) is data that i
 1. object
 2. array
 
-### IMMUTABLE (BY VALUE)/MUTABLE (BY REF)
+### IMMUTABLE (BY VALUE)/MUTABLE (BY REFERENCE)
 #### IMMUTABLE
 An immutable object is one whose content cannot be changed.
 An object can be immutable for various reasons, for example:
@@ -111,12 +120,16 @@ const sum = (a) => (b) => a + b;
 const sumByTwo = sum(2);
 ```
 
-### HIGHER-ORDER FUNCTIONS
+### FUNCTIONS
+#### FIRST-CLASS OBJECTS
+Functions in JavaScript are first-class objects, which means you can store functions in variables, pass them to other functions as arguments, and return them from other functions as values.
+
+#### HIGHER-ORDER FUNCTIONS
 Simply put, a higher-order function is just a first-class function that can accept another function as an argument and/or returns a function. A common example of a higher-order function is when a function accepts a second function (either named or anonymous) as an argument. The function passed in as an argument is also known as a callback function. Remember, when a callback function is invoked within your enclosing function and needs access to an outer variable, closures are created.
 
-Example is closure function sum. sum is higher-order function becouse returns new function.
+Example is closure function sum. sum is higher-order function becouse returns a function as a result.
 
-### IIFE - Immediately Invoked Function Expression
+#### IIFE - Immediately Invoked Function Expression
 Ref - [go to link](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 
 An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
@@ -134,8 +147,15 @@ It is a design pattern which is also known as a Self-Executing Anonymous Functio
 
 ### LIBRARIES 
 #### REACT
+##### VIRTUAL DOM
+##### JSX
+##### ROUTER
+##### COMPONENTS
+##### REDUX
+##### REDUX-THUNK/REDUX-SAGA
 ##### .env
 ##### LOCAL STORAGE
+##### HTTP/AXIOS
 
 ### FRAMEWORKS
 #### VUE.JS

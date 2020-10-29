@@ -11,6 +11,7 @@ function Router() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route path="/error" />
       <Route path="/error404" component={Error404} />
       <Redirect to="/error404" />
     </Switch>

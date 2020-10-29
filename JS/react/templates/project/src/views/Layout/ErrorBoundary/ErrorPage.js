@@ -16,7 +16,7 @@ function ErrorPage(props) {
   } = props;
 
   useEffect(() => {
-    history.push("/error404");
+    history.push("/error");
   }, []);
 
   const handleClick = () => {

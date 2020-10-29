@@ -28,7 +28,7 @@ export class Home extends Component {
   render() {
     const { user } = this.props;
     return (
-      <main className="flex flex-column flex-center">
+      <main className="flex flex-column flex-center py-4">
         <h4>This is project template with basic setup:</h4>
         <ul>
           <li>Folder structure</li>
@@ -43,7 +43,7 @@ export class Home extends Component {
 
         <h4>State usage sample</h4>
         <p>User: {`${user.firstName} ${user.lastName}`}</p>
-        <form className="w-50 px-4 py-2 bg-primary mb-4">
+        <form className="w-50 px-4 py-2 bg-primary">
           <h6 className="text-white text-center">User form</h6>
           <input
             className="form-control form-control-sm my-2"

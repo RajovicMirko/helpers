@@ -1,0 +1,75 @@
+$auto: minmax(30px, auto);
+$fr1: 1fr;
+$start: flex-start;
+$center: center;
+$between: space-between;
+$around: space-around;
+$end: flex-end;
+
+.page {
+  display: grid;
+
+  &.page {
+    &-center {
+      grid-template-rows: $fr1;
+      place-items: $center;
+    }
+
+    &-header {
+      grid-template-rows: $auto $fr1;
+    }
+
+    &-footer {
+      grid-template-rows: $fr1 $auto;
+    }
+
+    &-header-footer {
+      grid-template-rows: $auto $fr1 $auto;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+
+  &.flex {
+    &-column {
+      flex-direction: column;
+    }
+
+    &-justify {
+      &-start {
+        justify-content: $start;
+      }
+      &-center {
+        justify-content: $center;
+      }
+      &-between {
+        justify-content: $between;
+      }
+      &-around {
+        justify-content: $around;
+      }
+      &-end {
+        justify-content: $end;
+      }
+    }
+
+    &-align {
+      &-start {
+        align-items: $start;
+      }
+      &-center {
+        align-items: $center;
+      }
+      &-end {
+        align-items: $end;
+      }
+    }
+
+    &-center {
+      @extend .flex-justify-center;
+      @extend .flex-align-center;
+    }
+  }
+}

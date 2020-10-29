@@ -147,6 +147,7 @@ It is a design pattern which is also known as a Self-Executing Anonymous Functio
 
 ### LIBRARIES 
 #### REACT
+Ref - [go to link](https://reactjs.org/docs/getting-started.html)
 ##### VIRTUAL DOM
 ##### JSX
 ##### ROUTER

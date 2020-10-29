@@ -37,8 +37,12 @@ export class Home extends Component {
           <ul>
             <li>Folder structure</li>
             <li>Bootstrap CDN</li>
+            <li>Bootstrap scss color variables</li>
+            <li>scss positioning</li>
             <li>Redux</li>
             <li>Redux-thunk</li>
+            <li>Utils</li>
+            <li>API middleware</li>
           </ul>
 
           <h4>State usage sample</h4>

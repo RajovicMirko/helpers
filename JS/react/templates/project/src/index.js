@@ -17,7 +17,7 @@ import thunk from "redux-thunk";
 import api from "./middleware";
 
 // COMPONENTS
-import Layout from "./views/Layout";
+import Layout from "./components/Layout";
 
 const store = createStore(
   rootReducer,

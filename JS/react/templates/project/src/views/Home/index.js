@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 
 // REDUX ACTIONS
 import { editUser } from "../../store/actions/user";
-import { setError } from "../../store/actions/error";
 
 export class Home extends Component {
   constructor(props) {
@@ -27,6 +26,7 @@ export class Home extends Component {
 
   render() {
     const { user } = this.props;
+
     return (
       <main className="flex flex-column flex-center py-4">
         <h4>This is project template with basic setup:</h4>
@@ -75,7 +75,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     editUser: (data) => dispatch(editUser(data)),
-    setError: (err) => dispatch(setError(err)),
   };
 };
 

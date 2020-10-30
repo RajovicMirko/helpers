@@ -17,7 +17,10 @@ function ErrorPage(props) {
 
   useEffect(() => {
     history.push("/error");
-  }, []);
+    return () => {
+      history.push("/");
+    };
+  }, [history]);
 
   const handleClick = () => {
     history.push("/");

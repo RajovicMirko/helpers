@@ -1,5 +1,5 @@
 {
-  "name": "custom-table",
+  "name": "project-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,11 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
+    "core-js": "^3.6.5",
+    "fast-text-encoding": "^1.0.3",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
@@ -35,12 +38,14 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "ie 11"
     ]
   }
 }

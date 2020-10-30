@@ -1,3 +1,8 @@
+// polyfills for IE
+import "react-app-polyfill/ie11";
+import "react-app-polyfill/stable";
+import "fast-text-encoding/text";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";

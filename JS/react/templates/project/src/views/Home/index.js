@@ -28,8 +28,30 @@ export class Home extends Component {
     const { user } = this.props;
 
     return (
-      <main className="flex flex-column flex-center py-4">
+      <main className="flex flex-column flex-center py-2">
         <h4>This is project template with basic setup:</h4>
+        <ul>
+          <li>Folder structure</li>
+          <li>Bootstrap CDN</li>
+          <li>Bootstrap scss color variables</li>
+          <li>scss positioning</li>
+          <li>Redux</li>
+          <li>Redux-thunk</li>
+          <li>Utils</li>
+          <li>API middleware</li>
+        </ul>
+
+        <ul>
+          <li>Folder structure</li>
+          <li>Bootstrap CDN</li>
+          <li>Bootstrap scss color variables</li>
+          <li>scss positioning</li>
+          <li>Redux</li>
+          <li>Redux-thunk</li>
+          <li>Utils</li>
+          <li>API middleware</li>
+        </ul>
+
         <ul>
           <li>Folder structure</li>
           <li>Bootstrap CDN</li>
@@ -43,8 +65,8 @@ export class Home extends Component {
 
         <h4>State usage sample</h4>
         <p>User: {`${user.firstName} ${user.lastName}`}</p>
-        <form className="w-50 px-4 py-2 bg-primary">
-          <h6 className="text-white text-center">User form</h6>
+        <form className="w-50 px-4 py-2 bg-primary text-center">
+          <span className="h5 text-white">User form</span>
           <input
             className="form-control form-control-sm my-2"
             id="firstName"

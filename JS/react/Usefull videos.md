@@ -10,3 +10,7 @@ https://www.youtube.com/watch?v=YaZg8wg39QQ
 //////////////////// Later watch ////////////////////
 Neehar Venugopal - A Beginner's Guide to Code Splitting Your React App - React Conf 2017
 https://www.youtube.com/watch?v=bb6RCrDaxhw
+
+Front-End Architecture 101 - Nir Kaufman @ ReactNYC
+https://www.youtube.com/watch?v=o8THlN8hgcw
+https://github.com/demo-projects/react-library/tree/01_entities

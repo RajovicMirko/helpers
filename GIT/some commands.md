@@ -63,3 +63,6 @@ git push <remote_name> --delete test
 ili
 git push <remote_name> :test
 ```
+
+## Uklanjanje kredencijala sa projekta, a prilikom push-a ce traziti username i password
+git config --local credential.helper ""

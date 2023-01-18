@@ -4,6 +4,7 @@
   - [SPAJANJE IZMENA NA MASTER SA DRUGE GRANE](#spajanje-izmena-na-master-sa-druge-grane)
   - [BRISANJE SVIH LOKALNIH IZMENA](#brisanje-svih-lokalnih-izmena)
   - [BRISANJE GRANE](#brisanje-grane)
+  - [UKLANJANJE KREDENCIJALA SA PROJEKTA](#uklanjanje-kredencijala-sa-projekta,-a-prilikom-push-a-ce-traziti-username-i-password)
 
 # GIT UPUTSTVO
 

@@ -4,7 +4,7 @@
   - [SPAJANJE IZMENA NA MASTER SA DRUGE GRANE](#spajanje-izmena-na-master-sa-druge-grane)
   - [BRISANJE SVIH LOKALNIH IZMENA](#brisanje-svih-lokalnih-izmena)
   - [BRISANJE GRANE](#brisanje-grane)
-  - [UKLANJANJE KREDENCIJALA SA PROJEKTA](#uklanjanje-kredencijala-sa-projekta,-a-prilikom-push-a-ce-traziti-username-i-password)
+  - [UKLANJANJE KREDENCIJALA SA PROJEKTA](#uklanjanje-kredencijala-sa-projekta)
 
 # GIT UPUTSTVO
 
@@ -65,5 +65,8 @@ ili
 git push <remote_name> :test
 ```
 
-## Uklanjanje kredencijala sa projekta, a prilikom push-a ce traziti username i password
+## Uklanjanje kredencijala sa projekta
+prilikom push-a ce traziti username i password
+```
 git config --local credential.helper ""
+```
